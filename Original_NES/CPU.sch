@@ -194,8 +194,8 @@ F 3 "" H 3600 4600 50  0001 C CNN
 $EndComp
 Text GLabel 3600 2200 0    50   Input ~ 0
 ~RESET~
-Text GLabel 2650 2400 0    50   Input ~ 0
-CLK
+Text GLabel 1700 6450 1    50   Output ~ 0
+CPU_CLK
 Text GLabel 3600 3300 0    50   Output ~ 0
 RW
 Text GLabel 3600 3800 0    50   Output ~ 0
@@ -544,12 +544,12 @@ Connection ~ 2000 7000
 $Comp
 L Device:R R13
 U 1 1 5ED2B253
-P 2000 6550
-F 0 "R13" V 2100 6550 50  0000 C CNN
-F 1 "150k" V 2000 6550 50  0000 C CNN
-F 2 "" V 1930 6550 50  0001 C CNN
-F 3 "~" H 2000 6550 50  0001 C CNN
-	1    2000 6550
+P 1700 6850
+F 0 "R13" V 1800 6850 50  0000 C CNN
+F 1 "150k" V 1700 6850 50  0000 C CNN
+F 2 "" V 1630 6850 50  0001 C CNN
+F 3 "~" H 1700 6850 50  0001 C CNN
+	1    1700 6850
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -693,4 +693,24 @@ F 3 "" H 2900 5600 50  0001 C CNN
 	1    2900 5600
 	1    0    0    -1  
 $EndComp
+Text GLabel 4400 5900 2    50   Output ~ 0
+PPU_PIN_13
+$Comp
+L power:GND #PWR?
+U 1 1 5ED5879E
+P 1700 7000
+F 0 "#PWR?" H 1700 6750 50  0001 C CNN
+F 1 "GND" H 1705 6827 50  0000 C CNN
+F 2 "" H 1700 7000 50  0001 C CNN
+F 3 "" H 1700 7000 50  0001 C CNN
+	1    1700 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6700 1700 6700
+Text GLabel 3600 2400 0    50   Input ~ 0
+CPU_CLK
+Wire Wire Line
+	1700 6700 1700 6450
+Connection ~ 1700 6700
 $EndSCHEMATC
