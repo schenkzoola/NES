@@ -4,10 +4,10 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "NES Schematics"
+Date "2020-06-05"
+Rev "1.0"
+Comp "N. Schenk"
 Comment1 ""
 Comment2 ""
 Comment3 ""
