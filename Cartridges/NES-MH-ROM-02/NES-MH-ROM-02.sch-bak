@@ -1,0 +1,802 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "NES-MH-ROM-02 Schematic"
+Date "2020-06-06"
+Rev ""
+Comp "N. Schenk"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x36_Top_Bottom EDGE1
+U 1 1 5EDC3888
+P 9700 2700
+F 0 "EDGE1" H 9750 4617 50  0000 C CNN
+F 1 "Cartridge Connector" H 9750 4526 50  0000 C CNN
+F 2 "" H 9700 2700 50  0001 C CNN
+F 3 "~" H 9700 2700 50  0001 C CNN
+	1    9700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EDCB12A
+P 12050 200
+F 0 "#FLG0101" H 12050 275 50  0001 C CNN
+F 1 "PWR_FLAG" H 12050 373 50  0000 C CNN
+F 2 "" H 12050 200 50  0001 C CNN
+F 3 "~" H 12050 200 50  0001 C CNN
+	1    12050 200 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EDCB528
+P 12450 200
+F 0 "#FLG0102" H 12450 275 50  0001 C CNN
+F 1 "PWR_FLAG" H 12450 373 50  0000 C CNN
+F 2 "" H 12450 200 50  0001 C CNN
+F 3 "~" H 12450 200 50  0001 C CNN
+	1    12450 200 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5EDCB7E1
+P 12050 200
+F 0 "#PWR0101" H 12050 50  50  0001 C CNN
+F 1 "+5V" H 12065 373 50  0000 C CNN
+F 2 "" H 12050 200 50  0001 C CNN
+F 3 "" H 12050 200 50  0001 C CNN
+	1    12050 200 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EDCC1D9
+P 12450 200
+F 0 "#PWR0102" H 12450 -50 50  0001 C CNN
+F 1 "GND" H 12455 27  50  0000 C CNN
+F 2 "" H 12450 200 50  0001 C CNN
+F 3 "" H 12450 200 50  0001 C CNN
+	1    12450 200 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EDCC651
+P 9500 1000
+F 0 "#PWR0103" H 9500 750 50  0001 C CNN
+F 1 "GND" V 9505 872 50  0000 R CNN
+F 2 "" H 9500 1000 50  0001 C CNN
+F 3 "" H 9500 1000 50  0001 C CNN
+	1    9500 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5EDCCDC6
+P 9500 4500
+F 0 "#PWR0104" H 9500 4350 50  0001 C CNN
+F 1 "+5V" V 9515 4628 50  0000 L CNN
+F 2 "" H 9500 4500 50  0001 C CNN
+F 3 "" H 9500 4500 50  0001 C CNN
+	1    9500 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _NTSCustom:6113 CIC1
+U 1 1 5EDCEFFF
+P 7250 2100
+F 0 "CIC1" H 7050 2700 50  0000 C CNN
+F 1 "6113" H 7400 2700 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" V 7250 2100 50  0001 C CNN
+F 3 "" H 7250 1900 50  0001 C CNN
+	1    7250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5EDCD5B5
+P 10000 4500
+F 0 "#PWR0105" H 10000 4250 50  0001 C CNN
+F 1 "GND" V 10005 4372 50  0000 R CNN
+F 2 "" H 10000 4500 50  0001 C CNN
+F 3 "" H 10000 4500 50  0001 C CNN
+	1    10000 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5EDD738A
+P 4650 6350
+F 0 "#PWR0106" H 4650 6100 50  0001 C CNN
+F 1 "GND" H 4655 6177 50  0000 C CNN
+F 2 "" H 4650 6350 50  0001 C CNN
+F 3 "" H 4650 6350 50  0001 C CNN
+	1    4650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 5EDD77F8
+P 4650 4150
+F 0 "#PWR0107" H 4650 4000 50  0001 C CNN
+F 1 "+5V" H 4665 4323 50  0000 C CNN
+F 2 "" H 4650 4150 50  0001 C CNN
+F 3 "" H 4650 4150 50  0001 C CNN
+	1    4650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5EDDE142
+P 7250 2750
+F 0 "#PWR0108" H 7250 2500 50  0001 C CNN
+F 1 "GND" H 7255 2577 50  0000 C CNN
+F 2 "" H 7250 2750 50  0001 C CNN
+F 3 "" H 7250 2750 50  0001 C CNN
+	1    7250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5EDDE4AD
+P 7250 1450
+F 0 "#PWR0109" H 7250 1300 50  0001 C CNN
+F 1 "+5V" H 7265 1623 50  0000 C CNN
+F 2 "" H 7250 1450 50  0001 C CNN
+F 3 "" H 7250 1450 50  0001 C CNN
+	1    7250 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 1000 2    50   Output ~ 0
+CART_CLK
+Text GLabel 9500 1100 0    50   Output ~ 0
+CPU_A11
+Text GLabel 9500 1200 0    50   Output ~ 0
+CPU_A10
+Text GLabel 9500 1300 0    50   Output ~ 0
+CPU_A9
+Text GLabel 9500 1400 0    50   Output ~ 0
+CPU_A8
+Text GLabel 9500 1500 0    50   Output ~ 0
+CPU_A7
+Text GLabel 9500 1600 0    50   Output ~ 0
+CPU_A6
+Text GLabel 9500 1700 0    50   Output ~ 0
+CPU_A5
+Text GLabel 9500 1800 0    50   Output ~ 0
+CPU_A4
+Text GLabel 9500 1900 0    50   Output ~ 0
+CPU_A3
+Text GLabel 9500 2000 0    50   Output ~ 0
+CPU_A2
+Text GLabel 9500 2100 0    50   Output ~ 0
+CPU_A1
+Text GLabel 9500 2200 0    50   Output ~ 0
+CPU_A0
+Text GLabel 9500 2300 0    50   Output ~ 0
+CPU_RW
+Text GLabel 8950 2400 0    50   Input ~ 0
+CPU_IRQ
+Text GLabel 10450 1100 2    50   Output ~ 0
+CPU_M2
+Text GLabel 10000 1200 2    50   Output ~ 0
+CPU_A12
+Text GLabel 10000 1300 2    50   Output ~ 0
+CPU_A13
+Text GLabel 10000 1400 2    50   Output ~ 0
+CPU_A14
+Text GLabel 10000 1500 2    50   BiDi ~ 0
+CPU_D7
+Text GLabel 10000 1600 2    50   BiDi ~ 0
+CPU_D6
+Text GLabel 10000 1700 2    50   BiDi ~ 0
+CPU_D5
+Text GLabel 10000 1800 2    50   BiDi ~ 0
+CPU_D4
+Text GLabel 10000 1900 2    50   BiDi ~ 0
+CPU_D3
+Text GLabel 10000 2000 2    50   BiDi ~ 0
+CPU_D2
+Text GLabel 10000 2100 2    50   BiDi ~ 0
+CPU_D1
+Text GLabel 10000 2200 2    50   BiDi ~ 0
+CPU_D0
+Text GLabel 10000 2300 2    50   Output ~ 0
+ROMSEL
+Text GLabel 10450 2400 2    50   BiDi ~ 0
+EXP9
+Text GLabel 10450 2500 2    50   BiDi ~ 0
+EXP8
+Text GLabel 10450 2600 2    50   BiDi ~ 0
+EXP7
+Text GLabel 10450 2700 2    50   BiDi ~ 0
+EXP6
+Text GLabel 10450 2800 2    50   BiDi ~ 0
+EXP5
+Text GLabel 8950 2500 0    50   BiDi ~ 0
+EXP0
+Text GLabel 8950 2600 0    50   BiDi ~ 0
+EXP1
+Text GLabel 8950 2700 0    50   BiDi ~ 0
+EXP2
+Text GLabel 8950 2800 0    50   BiDi ~ 0
+EXP3
+Text GLabel 8950 2900 0    50   BiDi ~ 0
+EXP4
+Text GLabel 9500 3000 0    50   Output ~ 0
+PPU_RD
+Text GLabel 10450 2900 2    50   Output ~ 0
+PPU_WR
+Text GLabel 10450 3000 2    50   Input ~ 0
+CIRAM_CE
+Text GLabel 9500 3100 0    50   Input ~ 0
+CIRAM_A10
+Text GLabel 10450 3100 2    50   Output ~ 0
+CIRAM_!A13
+Text GLabel 9500 3200 0    50   Output ~ 0
+PPU_A6
+Text GLabel 9500 3300 0    50   Output ~ 0
+PPU_A5
+Text GLabel 9500 3400 0    50   Output ~ 0
+PPU_A4
+Text GLabel 9500 3500 0    50   Output ~ 0
+PPU_A3
+Text GLabel 9500 3600 0    50   Output ~ 0
+PPU_A2
+Text GLabel 9500 3700 0    50   Output ~ 0
+PPU_A1
+Text GLabel 9500 3800 0    50   Output ~ 0
+PPU_A0
+Text GLabel 10000 3200 2    50   Output ~ 0
+PPU_A7
+Text GLabel 10000 3300 2    50   Output ~ 0
+PPU_A8
+Text GLabel 10000 3400 2    50   Output ~ 0
+PPU_A9
+Text GLabel 10000 3600 2    50   Output ~ 0
+PPU_A10
+Text GLabel 10000 3700 2    50   Output ~ 0
+PPU_A12
+Text GLabel 10000 3800 2    50   Output ~ 0
+PPU_A13
+Text GLabel 10000 3500 2    50   Output ~ 0
+PPU_A11
+Text GLabel 9500 3900 0    50   BiDi ~ 0
+PPU_AD0
+Text GLabel 9500 4000 0    50   BiDi ~ 0
+PPU_AD1
+Text GLabel 9500 4100 0    50   BiDi ~ 0
+PPU_AD2
+Text GLabel 9500 4200 0    50   BiDi ~ 0
+PPU_AD3
+Text GLabel 10000 3900 2    50   BiDi ~ 0
+PPU_AD7
+Text GLabel 10000 4000 2    50   BiDi ~ 0
+PPU_AD6
+Text GLabel 10000 4100 2    50   BiDi ~ 0
+PPU_AD5
+Text GLabel 10000 4200 2    50   BiDi ~ 0
+PPU_AD4
+Text GLabel 10000 4300 2    50   Output ~ 0
+CIC_RST
+Text GLabel 10000 4400 2    50   Output ~ 0
+CIC_CLK
+Text GLabel 9500 4300 0    50   Output ~ 0
+CIC_OUT
+Text GLabel 9500 4400 0    50   Input ~ 0
+CIC_IN
+Wire Wire Line
+	10000 3000 10050 3000
+Wire Wire Line
+	10050 3000 10050 3100
+Wire Wire Line
+	10050 3100 10000 3100
+$Comp
+L Device:C C3
+U 1 1 5EDE912D
+P 10350 5500
+F 0 "C3" H 10465 5546 50  0000 L CNN
+F 1 "C" H 10465 5455 50  0000 L CNN
+F 2 "" H 10388 5350 50  0001 C CNN
+F 3 "~" H 10350 5500 50  0001 C CNN
+	1    10350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5EDE99FD
+P 9900 5500
+F 0 "C2" H 10015 5546 50  0000 L CNN
+F 1 "C" H 10015 5455 50  0000 L CNN
+F 2 "" H 9938 5350 50  0001 C CNN
+F 3 "~" H 9900 5500 50  0001 C CNN
+	1    9900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5EDE9DC3
+P 9450 5500
+F 0 "C1" H 9568 5546 50  0000 L CNN
+F 1 "22uF" H 9568 5455 50  0000 L CNN
+F 2 "" H 9488 5350 50  0001 C CNN
+F 3 "~" H 9450 5500 50  0001 C CNN
+	1    9450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 5EDEADFD
+P 9450 5350
+F 0 "#PWR0110" H 9450 5200 50  0001 C CNN
+F 1 "+5V" H 9465 5523 50  0000 C CNN
+F 2 "" H 9450 5350 50  0001 C CNN
+F 3 "" H 9450 5350 50  0001 C CNN
+	1    9450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5EDEB55D
+P 9450 5650
+F 0 "#PWR0111" H 9450 5400 50  0001 C CNN
+F 1 "GND" H 9455 5477 50  0000 C CNN
+F 2 "" H 9450 5650 50  0001 C CNN
+F 3 "" H 9450 5650 50  0001 C CNN
+	1    9450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5EDEBFE7
+P 9900 5650
+F 0 "#PWR0112" H 9900 5400 50  0001 C CNN
+F 1 "GND" H 9905 5477 50  0000 C CNN
+F 2 "" H 9900 5650 50  0001 C CNN
+F 3 "" H 9900 5650 50  0001 C CNN
+	1    9900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5EDEC301
+P 10350 5650
+F 0 "#PWR0113" H 10350 5400 50  0001 C CNN
+F 1 "GND" H 10355 5477 50  0000 C CNN
+F 2 "" H 10350 5650 50  0001 C CNN
+F 3 "" H 10350 5650 50  0001 C CNN
+	1    10350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 5EDEC648
+P 9900 5350
+F 0 "#PWR0114" H 9900 5200 50  0001 C CNN
+F 1 "+5V" H 9915 5523 50  0000 C CNN
+F 2 "" H 9900 5350 50  0001 C CNN
+F 3 "" H 9900 5350 50  0001 C CNN
+	1    9900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0115
+U 1 1 5EDEC8CB
+P 10350 5350
+F 0 "#PWR0115" H 10350 5200 50  0001 C CNN
+F 1 "+5V" H 10365 5523 50  0000 C CNN
+F 2 "" H 10350 5350 50  0001 C CNN
+F 3 "" H 10350 5350 50  0001 C CNN
+	1    10350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5EDECD9E
+P 6900 2000
+F 0 "#PWR0116" H 6900 1750 50  0001 C CNN
+F 1 "GND" V 6905 1872 50  0000 R CNN
+F 2 "" H 6900 2000 50  0001 C CNN
+F 3 "" H 6900 2000 50  0001 C CNN
+	1    6900 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5EDED3D4
+P 6900 2100
+F 0 "#PWR0117" H 6900 1850 50  0001 C CNN
+F 1 "GND" V 6905 1972 50  0000 R CNN
+F 2 "" H 6900 2100 50  0001 C CNN
+F 3 "" H 6900 2100 50  0001 C CNN
+	1    6900 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5EDED5CD
+P 7600 2200
+F 0 "#PWR0118" H 7600 1950 50  0001 C CNN
+F 1 "GND" V 7605 2072 50  0000 R CNN
+F 2 "" H 7600 2200 50  0001 C CNN
+F 3 "" H 7600 2200 50  0001 C CNN
+	1    7600 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5EDEE169
+P 7600 2100
+F 0 "#PWR0119" H 7600 1850 50  0001 C CNN
+F 1 "GND" V 7605 1972 50  0000 R CNN
+F 2 "" H 7600 2100 50  0001 C CNN
+F 3 "" H 7600 2100 50  0001 C CNN
+	1    7600 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5EDEE2B1
+P 7600 2000
+F 0 "#PWR0120" H 7600 1750 50  0001 C CNN
+F 1 "GND" V 7605 1872 50  0000 R CNN
+F 2 "" H 7600 2000 50  0001 C CNN
+F 3 "" H 7600 2000 50  0001 C CNN
+	1    7600 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5EDEE59C
+P 7600 1900
+F 0 "#PWR0121" H 7600 1650 50  0001 C CNN
+F 1 "GND" V 7605 1772 50  0000 R CNN
+F 2 "" H 7600 1900 50  0001 C CNN
+F 3 "" H 7600 1900 50  0001 C CNN
+	1    7600 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5EDEE777
+P 7600 1800
+F 0 "#PWR0122" H 7600 1550 50  0001 C CNN
+F 1 "GND" V 7605 1672 50  0000 R CNN
+F 2 "" H 7600 1800 50  0001 C CNN
+F 3 "" H 7600 1800 50  0001 C CNN
+	1    7600 1800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6900 2300 0    50   Input ~ 0
+CIC_CLK
+Text GLabel 6900 2400 0    50   Input ~ 0
+CIC_RST
+Text GLabel 6900 1800 0    50   Output ~ 0
+CIC_IN
+Text GLabel 6900 1900 0    50   Input ~ 0
+CIC_OUT
+NoConn ~ 7600 2300
+NoConn ~ 7600 2400
+NoConn ~ 6900 2200
+Text GLabel 4250 5050 0    50   Input ~ 0
+CPU_A7
+Text GLabel 4250 4950 0    50   Input ~ 0
+CPU_A6
+Text GLabel 4250 4850 0    50   Input ~ 0
+CPU_A5
+Text GLabel 4250 4750 0    50   Input ~ 0
+CPU_A4
+Text GLabel 4250 4650 0    50   Input ~ 0
+CPU_A3
+Text GLabel 4250 4550 0    50   Input ~ 0
+CPU_A2
+Text GLabel 4250 4450 0    50   Input ~ 0
+CPU_A1
+Text GLabel 4250 4350 0    50   Input ~ 0
+CPU_A0
+Text GLabel 4250 5450 0    50   Input ~ 0
+CPU_A11
+Text GLabel 4250 5350 0    50   Input ~ 0
+CPU_A10
+Text GLabel 4250 5250 0    50   Input ~ 0
+CPU_A9
+Text GLabel 4250 5150 0    50   Input ~ 0
+CPU_A8
+Text GLabel 4250 5550 0    50   Input ~ 0
+CPU_A12
+Text GLabel 4250 5650 0    50   Input ~ 0
+CPU_A13
+Text GLabel 4250 5750 0    50   Input ~ 0
+CPU_A14
+Text GLabel 5050 5050 2    50   BiDi ~ 0
+CPU_D7
+Text GLabel 5050 4950 2    50   BiDi ~ 0
+CPU_D6
+Text GLabel 5050 4850 2    50   BiDi ~ 0
+CPU_D5
+Text GLabel 5050 4750 2    50   BiDi ~ 0
+CPU_D4
+Text GLabel 5050 4650 2    50   BiDi ~ 0
+CPU_D3
+Text GLabel 5050 4550 2    50   BiDi ~ 0
+CPU_D2
+Text GLabel 5050 4450 2    50   BiDi ~ 0
+CPU_D1
+Text GLabel 5050 4350 2    50   BiDi ~ 0
+CPU_D0
+$Comp
+L Device:Jumper JH1
+U 1 1 5EDF8AE6
+P 7350 3950
+F 0 "JH1" H 7350 4214 50  0000 C CNN
+F 1 "H" H 7350 4123 50  0000 C CNN
+F 2 "" H 7350 3950 50  0001 C CNN
+F 3 "~" H 7350 3950 50  0001 C CNN
+	1    7350 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 3950 0    50   Output ~ 0
+CIRAM_A10
+Wire Wire Line
+	7050 3950 7050 4450
+Text GLabel 7650 4450 2    50   Input ~ 0
+PPU_A11
+$Comp
+L Device:Jumper JV1
+U 1 1 5EDFA3F5
+P 7350 4450
+F 0 "JV1" H 7350 4714 50  0000 C CNN
+F 1 "V" H 7350 4623 50  0000 C CNN
+F 2 "" H 7350 4450 50  0001 C CNN
+F 3 "~" H 7350 4450 50  0001 C CNN
+	1    7350 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 3950 2    50   Input ~ 0
+PPU_A10
+$Comp
+L power:GND #PWR0123
+U 1 1 5EE05DCE
+P 4250 6050
+F 0 "#PWR0123" H 4250 5800 50  0001 C CNN
+F 1 "GND" V 4255 5922 50  0000 R CNN
+F 2 "" H 4250 6050 50  0001 C CNN
+F 3 "" H 4250 6050 50  0001 C CNN
+	1    4250 6050
+	0    1    1    0   
+$EndComp
+Text GLabel 4250 3350 0    50   Input ~ 0
+PPU_A13
+Text GLabel 4250 3450 0    50   Input ~ 0
+PPU_RD
+Wire Wire Line
+	3150 2950 4250 2950
+$Comp
+L Memory_EPROM:27C256 CHR-ROM1
+U 1 1 5EE03E10
+P 4650 2550
+F 0 "CHR-ROM1" H 4350 3600 50  0000 C CNN
+F 1 "CHR-ROM" H 4850 3600 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 4650 2550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0014.pdf" H 4650 2550 50  0001 C CNN
+	1    4650 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3050 4250 3050
+Text GLabel 4250 2750 0    50   Input ~ 0
+PPU_A11
+Text GLabel 4250 2850 0    50   Input ~ 0
+PPU_A12
+Text GLabel 4250 2650 0    50   Input ~ 0
+PPU_A10
+Text GLabel 4250 2550 0    50   Input ~ 0
+PPU_A9
+Text GLabel 4250 2450 0    50   Input ~ 0
+PPU_A8
+Text GLabel 4250 2350 0    50   Input ~ 0
+PPU_A7
+Text GLabel 4250 1650 0    50   Input ~ 0
+PPU_A0
+Text GLabel 4250 1750 0    50   Input ~ 0
+PPU_A1
+Text GLabel 4250 1850 0    50   Input ~ 0
+PPU_A2
+Text GLabel 4250 1950 0    50   Input ~ 0
+PPU_A3
+Text GLabel 4250 2050 0    50   Input ~ 0
+PPU_A4
+Text GLabel 4250 2150 0    50   Input ~ 0
+PPU_A5
+Text GLabel 4250 2250 0    50   Input ~ 0
+PPU_A6
+Text GLabel 5050 2050 2    50   BiDi ~ 0
+PPU_AD4
+Text GLabel 5050 2150 2    50   BiDi ~ 0
+PPU_AD5
+Text GLabel 5050 2250 2    50   BiDi ~ 0
+PPU_AD6
+Text GLabel 5050 2350 2    50   BiDi ~ 0
+PPU_AD7
+Text GLabel 5050 1950 2    50   BiDi ~ 0
+PPU_AD3
+Text GLabel 5050 1850 2    50   BiDi ~ 0
+PPU_AD2
+Text GLabel 5050 1750 2    50   BiDi ~ 0
+PPU_AD1
+Text GLabel 5050 1650 2    50   BiDi ~ 0
+PPU_AD0
+$Comp
+L power:+5V #PWR0124
+U 1 1 5EDE512E
+P 4250 3250
+F 0 "#PWR0124" H 4250 3100 50  0001 C CNN
+F 1 "+5V" V 4265 3378 50  0000 L CNN
+F 2 "" H 4250 3250 50  0001 C CNN
+F 3 "" H 4250 3250 50  0001 C CNN
+	1    4250 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _NTSCustom:74HC161 LS161
+U 1 1 5EDDCAE1
+P 2800 3150
+F 0 "LS161" H 2600 3600 50  0000 C CNN
+F 1 "74HC161" H 3000 3600 50  0000 C CNN
+F 2 "" H 2800 3150 50  0001 C CNN
+F 3 "" H 2800 3150 50  0001 C CNN
+	1    2800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0125
+U 1 1 5EDD7ECB
+P 4650 1450
+F 0 "#PWR0125" H 4650 1300 50  0001 C CNN
+F 1 "+5V" H 4665 1623 50  0000 C CNN
+F 2 "" H 4650 1450 50  0001 C CNN
+F 3 "" H 4650 1450 50  0001 C CNN
+	1    4650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5EDD6DB9
+P 4650 3650
+F 0 "#PWR0126" H 4650 3400 50  0001 C CNN
+F 1 "GND" H 4655 3477 50  0000 C CNN
+F 2 "" H 4650 3650 50  0001 C CNN
+F 3 "" H 4650 3650 50  0001 C CNN
+	1    4650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5EDCAD40
+P 2800 3650
+F 0 "#PWR0127" H 2800 3400 50  0001 C CNN
+F 1 "GND" H 2805 3477 50  0000 C CNN
+F 2 "" H 2800 3650 50  0001 C CNN
+F 3 "" H 2800 3650 50  0001 C CNN
+	1    2800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0128
+U 1 1 5EDCA8DD
+P 2800 2650
+F 0 "#PWR0128" H 2800 2500 50  0001 C CNN
+F 1 "+5V" H 2815 2823 50  0000 C CNN
+F 2 "" H 2800 2650 50  0001 C CNN
+F 3 "" H 2800 2650 50  0001 C CNN
+	1    2800 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3150 3700 3150
+$Comp
+L Memory_EPROM:27C512 PRG-ROM1
+U 1 1 5EE13656
+P 4650 5250
+F 0 "PRG-ROM1" H 4350 6300 50  0000 C CNN
+F 1 "PRG-ROM" H 4850 6300 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 4650 5250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf" H 4650 5250 50  0001 C CNN
+	1    4650 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3150 3700 5850
+Wire Wire Line
+	3700 5850 4250 5850
+Text GLabel 4250 6150 0    50   Input ~ 0
+ROMSEL
+NoConn ~ 3150 3250
+NoConn ~ 3150 2850
+$Comp
+L power:+5V #PWR0129
+U 1 1 5EE165B4
+P 2450 2850
+F 0 "#PWR0129" H 2450 2700 50  0001 C CNN
+F 1 "+5V" V 2465 2978 50  0000 L CNN
+F 2 "" H 2450 2850 50  0001 C CNN
+F 3 "" H 2450 2850 50  0001 C CNN
+	1    2450 2850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3150 3450 2    50   Input ~ 0
+CPU_RW
+$Comp
+L power:GND #PWR0130
+U 1 1 5EE16F6E
+P 3150 3350
+F 0 "#PWR0130" H 3150 3100 50  0001 C CNN
+F 1 "GND" V 3155 3222 50  0000 R CNN
+F 2 "" H 3150 3350 50  0001 C CNN
+F 3 "" H 3150 3350 50  0001 C CNN
+	1    3150 3350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2450 2950 0    50   Input ~ 0
+ROMSEL
+Text GLabel 2450 3050 0    50   BiDi ~ 0
+CPU_D0
+Text GLabel 2450 3150 0    50   BiDi ~ 0
+CPU_D1
+Text GLabel 2450 3250 0    50   BiDi ~ 0
+CPU_D4
+Text GLabel 2450 3350 0    50   BiDi ~ 0
+CPU_D5
+$Comp
+L power:GND #PWR0131
+U 1 1 5EE17B33
+P 2450 3450
+F 0 "#PWR0131" H 2450 3200 50  0001 C CNN
+F 1 "GND" V 2455 3322 50  0000 R CNN
+F 2 "" H 2450 3450 50  0001 C CNN
+F 3 "" H 2450 3450 50  0001 C CNN
+	1    2450 3450
+	0    1    1    0   
+$EndComp
+Text Notes 7150 4100 0    50   ~ 0
+H is selected by default
+NoConn ~ 9500 2500
+NoConn ~ 9500 2600
+NoConn ~ 9500 2700
+NoConn ~ 9500 2800
+NoConn ~ 9500 2900
+NoConn ~ 10000 2400
+NoConn ~ 10000 2500
+NoConn ~ 10000 2600
+NoConn ~ 10000 2700
+NoConn ~ 10000 2800
+NoConn ~ 8950 2500
+NoConn ~ 8950 2600
+NoConn ~ 8950 2700
+NoConn ~ 8950 2800
+NoConn ~ 8950 2900
+NoConn ~ 10450 2400
+NoConn ~ 10450 2500
+NoConn ~ 10450 2600
+NoConn ~ 10450 2700
+NoConn ~ 10450 2800
+NoConn ~ 10450 3000
+NoConn ~ 10450 3100
+NoConn ~ 10000 2900
+NoConn ~ 10450 2900
+NoConn ~ 9500 2400
+NoConn ~ 8950 2400
+NoConn ~ 10000 1000
+NoConn ~ 10000 1100
+NoConn ~ 10450 1000
+NoConn ~ 10450 1100
+$EndSCHEMATC
