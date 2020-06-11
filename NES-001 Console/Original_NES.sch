@@ -1664,7 +1664,7 @@ Wire Wire Line
 	13000 2750 13000 2900
 Wire Wire Line
 	13000 2900 13450 2900
-Text GLabel 14050 2800 2    50   Output ~ 0
+Text GLabel 14050 2900 2    50   Output ~ 0
 PPU_!A13
 Text GLabel 15700 3050 2    50   Input ~ 0
 PPU_!A13
