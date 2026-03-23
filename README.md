@@ -7,7 +7,7 @@ What hasn't been included yet is the RF modulator.
 
 ## HVC-001 Console
 
-These are schematics for the Famicom HVC-001.  I mostly verified my NES-001 schematics against the official scheamtics and verified anything that didn't match.
+These are schematics for the Famicom HVC-001.  I mostly verified my NES-001 schematics against the official schematics and verified anything that didn't match.
 
 ## Cartridges
 
